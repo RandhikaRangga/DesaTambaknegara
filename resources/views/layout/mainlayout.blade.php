@@ -38,7 +38,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" style="background-color: #f0f1f5;">
         <div class="container">
-            <a class="navbar" href="/"> <img src="aset/images/icon.png" width="100px" height="100px"></a>
+            <a class="navbar" href="/"> <img src="aset/images/icon.png" width="80px" height="80px">&nbsp;&nbsp;<img src="aset/images/pokdarwis.png" width="120px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
@@ -47,8 +47,12 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="/wisata" class="nav-link">Wisata</a></li>
-                    <li class="nav-item"><a href="/artikel" class="nav-link">Artikel</a></li>
-                    <li class="nav-item"><a href="/dokumentasi" class="nav-link">Dokumentasi</a></li>
+                    <li class="nav-item dropdown show"><a href="" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeri</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="/dokumentasi">Foto</a>
+                            <a class="dropdown-item" href="/video">Video</a>
+                        </div>
+                    </li>
                     <li class="nav-item"><a href="/paket" class="nav-link">Paket</a></li>
                     <li class="nav-item"><a href="/kontak" class="nav-link">Kontak</a></li>
 
@@ -62,30 +66,38 @@
     </div>
 
     <!-- Footer -->
-    <footer class="ftco-footer bg-bottom" style="background-color: #55878A">
+    <footer class="ftco-footer bg-bottom" style="background-color: #012269">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Tentang Kami</h2>
-                        <p>Desa wisata menari Tambaknegara Berlokasi di antara gugusan bukit Serayu dan sungai Serayu dengan ketinggian 300 mdpl. Mengangkat Menari sebagai brand desa wisata dengan tema Desa Wisata Seni dan Budaya, Alam dan Ekowisata yang Berwawasan Lingkungan, Desa Wisata Tambaknegara menawarkan bebragai kegiatan wisata sekaligus pengalaman kehidupan yang masih mengakar kuat di masyarakat dengan suasana khas pedesaan di lereng bukit Serayu.</p>
+                        <ul class="list-unstyled footer-social">
+                            <li class="ftco-animate" width="80px"><a href="https://www.youtube.com/@desawisatamenari" target="_blank" style="color: white;"><span><img src="aset/images/youtube.png" width="30" height="30"></span> Desa Wisata Menari</a></li>
+                            <br>
+                            <li class="ftco-animate"><a href="https://www.tiktok.com/@deswitatambaknegara?is_from_webapp=1&sender_device=pc" target="_blank" style="color: white;"><span><img src="aset/images/tik-tok (1).png" width="30" height="30"></span> @deswitatambaknegara</a></li>
+                            <br>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/desawisata_menari/" target="_blank" style="color: white;"><span><img src="aset/images/instagram.png" width="30" height="30"></span> @desawisata_menari</span></a></li>
+                        </ul>
+                        <br><br><br><br><br>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li class="ftco-animate"><a href="https://www.youtube.com/@desawisatamenari" target="_blank"><span class="icon-youtube"></span></a></li>
-                            <li class="ftco-animate"><a href="https://www.tiktok.com/@deswitatambaknegara?is_from_webapp=1&sender_device=pc" target="_blank"><span><img src="aset/images/tik-tok (1).png" width="25px" height="25px"></span></a></li>
-                            <li class="ftco-animate"><a href="https://www.instagram.com/desawisata_menari/" target="_blank"><span class="icon-instagram"></span></a></li>
+                            <img src="aset/images/logo-wonderful.png" width="250" alt="">
                         </ul>
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="ftco-footer-widget mb-1 ml-md-5">
+                    <div class="ftco-footer-widget mb-1 ml-md-5 dropdown">
                         <h2 class="ftco-heading-2">Infromation</h2>
                         <ul class="list-unstyled">
                             <li><a href="/" class="py-2 d-block">Home</a></li>
                             <li><a href="/wisata" class="py-2 d-block">Wisata</a></li>
-                            <li><a href="/artikel" class="py-2 d-block">Artikel</a></li>
-                            <li><a href="/dokumentasi" class="py-2 d-block">Dokumentasi</a></li>
+                            <li><a href="/dokumentasi" class="py-2 d-block">Foto</a></li>
+                            <li><a href="/video" class="py-2 d-block">Video</a></li>
                             <li><a href="/paket" class="py-2 d-block">Paket</a></li>
                             <li><a href="/kontak" class="py-2 d-block">Kontak</a></li>
+                        </ul>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <img src="aset/images/banyumas.png" width="200" alt="">
                         </ul>
                     </div>
                 </div>
@@ -95,8 +107,12 @@
                         <div class="block-23 mb-3">
                             <ul>
                                 <li><a href="https://goo.gl/maps/bSaP1fWsEsohxogp6" target="_blank"><span class="icon icon-map-marker"></span><span class="text">Kalitanjung, Tambaknegara, Kec. Rawalo, Kabupaten Banyumas, Jawa Tengah</span></a></li>
-                                <li><a href="https://wa.me/6281283093914" target="_blank"><span class="icon icon-phone"></span><span class="text">081283093914</span></a></li>
+                                <li><a href="https://wa.me/62882005390073" target="_blank"><span class="icon icon-phone"></span><span class="text">0882005390073</span></a></li>
                                 <li><a href="mailto:desawisatamenari@gmail.com"><span class="icon icon-envelope"></span><span class="text">desawisatamenari@gmail.com</span></a></li>
+                            </ul>
+                            <br><br><br>
+                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                <img src="aset/images/dolan-banyumas.png" width="300" alt="">
                             </ul>
                         </div>
                     </div>

@@ -1,12 +1,12 @@
 @extends('layout.adminlayout')
 
-@section('title','Dokumentasi')
+@section('title','Foto')
 
 @section('content')
 <div class="row page-titles mx-0">
     <div class="col-sm-6 p-md-0">
         <div class="welcome-text">
-            <h4>Dokumentasi Desa Menari Tambaknegara</h4>
+            <h4>Foto Desa Menari Tambaknegara</h4>
         </div>
     </div>
 </div>
@@ -54,7 +54,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="tambahLabel">Tambah Dokumentasi</h3>
+                <h3 class="modal-title" id="tambahLabel">Tambah Foto</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -93,7 +93,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="editLabel">Edit Dokumentasi</h3>
+                <h3 class="modal-title" id="editLabel">Edit Foto</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -134,7 +134,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="hapusLabel">Hapus Dokumentasi</h3>
+                <h3 class="modal-title" id="hapusLabel">Hapus Foto</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -144,7 +144,7 @@
                     <form action="{{ route('admin-dokum.destroy', $dokum->id) }}" method="POST">
                         @csrf
                         @method('DELETE')
-                        Apakah anda yakin ingin menghapus dokumentasi <strong>{{ $dokum->judul }}</strong>
+                        Apakah anda yakin ingin menghapus Foto <strong>{{ $dokum->judul }}</strong>
                         <span></span>
                 </div>
                 <div class="modal-footer">

@@ -16,7 +16,7 @@ class WebDokumController extends Controller
     public function index(): View
     {
         //get posts
-        $dokums = Dokum::latest()->paginate(5);
+        $dokums = Dokum::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('web.dokumentasi', compact('dokums'));

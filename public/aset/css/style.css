@@ -8148,7 +8148,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #5497A7 !important;
+    background: #012269 !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0; }
@@ -8246,7 +8246,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .4;
-    background: #000000;
+    /*background: #000000;
     background: #2f88fc;
     background: -moz-linear-gradient(45deg, #2f88fc 0%, #ff5959 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #2f88fc), color-stop(100%, #ff5959));
@@ -8254,7 +8254,7 @@ h1, h2, h3, h4, h5,
     background: -o-linear-gradient(45deg, #2f88fc 0%, #ff5959 100%);
     background: -ms-linear-gradient(45deg, #2f88fc 0%, #ff5959 100%);
     background: linear-gradient(45deg, #2f88fc 0%, #ff5959 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f88fc', endColorstr='#ff5959', GradientType=1 ); }
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f88fc', endColorstr='#ff5959', GradientType=1 );*/ } 
   .hero-wrap.hero-wrap-2 .overlay {
     width: 100%;
     opacity: .2; }

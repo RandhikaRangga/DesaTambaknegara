@@ -3,7 +3,7 @@
 @section('title', 'Wisata')
 
 @section('content')
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('aset/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('aset/images/bendungan.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row justify-content-center pb-4">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Wisata</h2>
+                <h2 class="mb-4">Daya Tarik Wisata Buatan</h2>
             </div>
         </div>
         <div class="container">
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <h3 class="heading"><a href="#">{{$wisata->nama}}</a></h3>
-                            <p>{{$wisata->deskripsi}}</p>
+                            <p style="text-align: justify;">{{$wisata->deskripsi}}</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
     <div class="container">
         <div class="row justify-content-center pb-4">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Kebudayaan</h2>
+                <h2 class="mb-4">Daya Tarik Kebudayaan</h2>
             </div>
         </div>
         <div class="container">
@@ -63,11 +63,11 @@
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-4 topp">
                                 <div class="two">
-                                    <span class="mos">Rp.{{$budaya->harga}}</span>
+                                    <span class="mos">{{$budaya->harga}}</span>
                                 </div>
                             </div>
                             <h3 class="heading"><a href="#">{{$budaya->nama}}</a></h3>
-                            <p>{{$budaya->deskripsi}}</p>
+                            <p style="text-align: justify;">{{$budaya->deskripsi}}</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
     <div class="container">
         <div class="row justify-content-center pb-4">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Kuliner</h2>
+                <h2 class="mb-4">Daya Tarik Kuliner</h2>
             </div>
         </div>
         <div class="container">
@@ -93,12 +93,12 @@
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-4 topp">
                                 <div class="two">
-                                    <span class="yr">Mulai Dari</span>
-                                    <span class="mos">Rp.{{$kuliner->harga}}</span>
+                                    <!-- <span class="yr">Mulai Dari</span> -->
+                                    <span class="mos">{{$kuliner->harga}}</span>
                                 </div>
                             </div>
                             <h3 class="heading"><a href="#">{{$kuliner->nama}}</a></h3>
-                            <p>{{$kuliner->deskripsi}}</p>
+                            <p style="text-align: justify;">{{$kuliner->deskripsi}}</p>
                         </div>
                     </div>
                 </div>

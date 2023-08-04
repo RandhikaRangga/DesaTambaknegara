@@ -105,13 +105,10 @@
           <li><a href="/admin-budaya" aria-expanded="false"><img src="assets/images/angklung.png" alt="" width="35"><span class="nav-text"> Budaya</span></a></li>
           <li><a href="/admin-kuliner" aria-expanded="false"><img src="assets/images/cookbook.png" alt="" width="35"><span class="nav-text"> Kuliner</span></a></li>
 
-          <!-- Artikel -->
-          <li class="nav-label">Artikel</li>
-          <li><a href="/" aria-expanded="false"><img src="assets/images/newspaper.png" alt="" width="35"></i><span class="nav-text"> Artikel</span></a></li>
-
           <!-- Dokumentasi -->
-          <li class="nav-label">Dokumentasi</li>
-          <li><a href="/admin-dokum" aria-expanded="false"><img src="assets/images/gallery.png" alt="" width="35"><span class="nav-text"> Dokumentasi</span></a></li>
+          <li class="nav-label">Galeri</li>
+          <li><a href="/admin-dokum" aria-expanded="false"><img src="assets/images/gallery.png" alt="" width="35"><span class="nav-text"> Foto</span></a></li>
+          <li><a href="/admin-video" aria-expanded="false"><img src="assets/images/video.png" alt="" width="35"><span class="nav-text"> Video</span></a></li>
         </ul>
       </div>
     </div>

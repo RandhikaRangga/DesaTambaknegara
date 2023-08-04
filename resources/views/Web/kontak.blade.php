@@ -3,7 +3,7 @@
 @section('title', 'Kontak')
 
 @section('content')
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('aset/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('aset/images/bendungan.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -33,7 +33,7 @@
                         <span class="icon-phone2"></span>
                     </div>
                     <h3 class="mb-2">Kontak</h3>
-                    <p><a href="https://wa.me/6281283093914">081283093914</a></p>
+                    <p><a href="https://wa.me/62882005390073">0882005390073</a></p>
                 </div>
             </div>
             <div class="col-md-4 d-flex">

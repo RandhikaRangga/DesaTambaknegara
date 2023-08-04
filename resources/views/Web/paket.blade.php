@@ -3,7 +3,7 @@
 @section('title', 'Paket')
 
 @section('content')
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('aset/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('aset/images/bendungan.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="" data-toggle="modal" data-target="#gondolio" class="img" style="background-image: url(aset/images/destination-1.jpg);"></a>
+                    <a href="" data-toggle="modal" data-target="#gondolio" class="img" style="background-image: url(aset/images/Gondolio-2.png);"></a>
                     <div class="text p-4">
                         <a href="" data-toggle="modal" data-target="#gondolio">
                             <span class="price">Rp. 365.000/Orang</span>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="" data-toggle="modal" data-target="#gamelan" class="img" style="background-image: url(aset/images/destination-1.jpg);"></a>
+                    <a href="" data-toggle="modal" data-target="#gamelan" class="img" style="background-image: url(aset/images/gamelan.png);"></a>
                     <div class="text p-4">
                         <a href="" data-toggle="modal" data-target="#gamelan">
                             <span class="price">Rp. 850.000/Orang</span>

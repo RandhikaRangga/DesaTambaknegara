@@ -18,9 +18,9 @@ class WebWisataController extends Controller
     public function index(): View
     {
         //get posts
-        $kuliners = Kuliner::latest()->paginate(5);
-        $wisatas = Wisata::latest()->paginate(5);
-        $budayas = Budaya::latest()->paginate(5);
+        $kuliners = Kuliner::latest()->paginate(E_ALL);
+        $wisatas = Wisata::latest()->paginate(E_ALL);
+        $budayas = Budaya::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('web.wisata', compact('kuliners','budayas','wisatas'));

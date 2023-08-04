@@ -32,6 +32,7 @@ Route::get('/paket', function () {
 
 Route::resource('/wisata', \App\Http\Controllers\WebWisataController::class);
 Route::resource('/dokumentasi', \App\Http\Controllers\WebDokumController::class);
+Route::resource('/video', \App\Http\Controllers\WebVideoController::class);
 
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
@@ -46,6 +47,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('/admin-budaya', \App\Http\Controllers\BudayaController::class);
     Route::resource('/admin-kuliner', \App\Http\Controllers\KulinerController::class);
     Route::resource('/admin-dokum', \App\Http\Controllers\DokumController::class);
+    Route::resource('/admin-video', \App\Http\Controllers\VideoController::class);
 });
 
 require __DIR__ . '/auth.php';
