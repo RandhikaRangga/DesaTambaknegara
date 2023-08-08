@@ -8,9 +8,9 @@
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-9 text text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Desa</h1>
+                <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Desa Wisata</h1>
                 <b>
-                    <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Tambaknegara</h1>
+                    <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Menari Tambaknegara</h1>
                 </b>
             </div>
         </div>

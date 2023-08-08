@@ -56,6 +56,32 @@
         <div class="card">
             <div class="stat-widget-one card-body">
                 <div class="stat-icon d-inline-block">
+                    <img src="assets/images/gift-bag.png" alt="" width="50">
+                </div>
+                <div class="stat-content d-inline-block">
+                    <div class="stat-text">Souvenir</div>
+                    <div class="stat-digit">{{ number_format($souvenir) }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-one card-body">
+                <div class="stat-icon d-inline-block">
+                    <img src="assets/images/homestay.png" alt="" width="50">
+                </div>
+                <div class="stat-content d-inline-block">
+                    <div class="stat-text">Akomodasi</div>
+                    <div class="stat-digit">{{ number_format($akomodasi) }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-one card-body">
+                <div class="stat-icon d-inline-block">
                     <img src="assets/images/gallery.png" alt="" width="50">
                 </div>
                 <div class="stat-content d-inline-block">

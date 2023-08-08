@@ -20,7 +20,7 @@ class DokumController extends Controller
     public function index(): View
     {
         //get posts
-        $dokums = Dokum::latest()->paginate(5);
+        $dokums = Dokum::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('admin.dokum', compact('dokums'));

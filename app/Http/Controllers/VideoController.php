@@ -20,7 +20,7 @@ class VideoController extends Controller
     public function index(): View
     {
         //get posts
-        $videos = Video::latest()->paginate(5);
+        $videos = Video::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('admin.video', compact('videos'));

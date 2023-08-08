@@ -30,7 +30,10 @@ Route::get('/paket', function () {
     return view('web.paket');
 });
 
-Route::resource('/wisata', \App\Http\Controllers\WebWisataController::class);
+Route::resource('/daya-tarik', \App\Http\Controllers\WebDayaTarikController::class);
+Route::resource('/souvenir', \App\Http\Controllers\WebSouvenirController::class);
+Route::resource('/kuliner', \App\Http\Controllers\WebKulinerController::class);
+Route::resource('/akomodasi', \App\Http\Controllers\WebAkomodasiController::class);
 Route::resource('/dokumentasi', \App\Http\Controllers\WebDokumController::class);
 Route::resource('/video', \App\Http\Controllers\WebVideoController::class);
 
@@ -46,6 +49,8 @@ Route::middleware('auth')->group(function () {
     Route::resource('/admin-wisata', \App\Http\Controllers\WisataController::class);
     Route::resource('/admin-budaya', \App\Http\Controllers\BudayaController::class);
     Route::resource('/admin-kuliner', \App\Http\Controllers\KulinerController::class);
+    Route::resource('/admin-souvenir', \App\Http\Controllers\SouvenirController::class);
+    Route::resource('/admin-akomodasi', \App\Http\Controllers\AkomodasiController::class);
     Route::resource('/admin-dokum', \App\Http\Controllers\DokumController::class);
     Route::resource('/admin-video', \App\Http\Controllers\VideoController::class);
 });

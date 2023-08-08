@@ -20,7 +20,7 @@ class WisataController extends Controller
     public function index(): View
     {
         //get posts
-        $wisatas = Wisata::latest()->paginate(5);
+        $wisatas = Wisata::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('admin.wisata', compact('wisatas'));

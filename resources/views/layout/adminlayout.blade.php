@@ -104,6 +104,9 @@
           <li><a href="/admin-wisata" aria-expanded="false"><img src="assets/images/virtual-tour.png" alt="" width="35"><span class="nav-text"> Wisata</span></a></li>
           <li><a href="/admin-budaya" aria-expanded="false"><img src="assets/images/angklung.png" alt="" width="35"><span class="nav-text"> Budaya</span></a></li>
           <li><a href="/admin-kuliner" aria-expanded="false"><img src="assets/images/cookbook.png" alt="" width="35"><span class="nav-text"> Kuliner</span></a></li>
+          <li><a href="/admin-souvenir" aria-expanded="false"><img src="assets/images/gift-bag.png" alt="" width="35"><span class="nav-text"> Souvenir</span></a></li>
+          <li><a href="/admin-akomodasi" aria-expanded="false"><img src="assets/images/homestay.png" alt="" width="35"><span class="nav-text"> Akomodasi</span></a></li>
+
 
           <!-- Dokumentasi -->
           <li class="nav-label">Galeri</li>

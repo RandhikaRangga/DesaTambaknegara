@@ -20,7 +20,7 @@ class KulinerController extends Controller
     public function index(): View
     {
         //get posts
-        $kuliners = Kuliner::latest()->paginate(5);
+        $kuliners = Kuliner::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('admin.kuliner', compact('kuliners'));

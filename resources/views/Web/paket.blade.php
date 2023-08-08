@@ -64,6 +64,103 @@
     </div>
 </section>
 
+<section class="ftco-section ftco-no-pt">
+    <div class="container">
+        <div class="row justify-content-center pb-4">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <br>
+                <h2 class="mb-4">Wisata Outbound Desa Tambaknegara</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 ftco-animate">
+                <div class="project-wrap">
+                    <a href="" data-toggle="modal" data-target="#gondolio" class="img" style="background-image: url(aset/images/Gondolio-2.png);"></a>
+                    <div class="text p-4">
+                        <a href="" data-toggle="modal" data-target="#gondolio">
+                            <span class="price">Rp. 365.000/Orang</span>
+                            <span class="days">Paket 1 Hari 1 Malam</span>
+                            <h3>Paket Gondolio</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ftco-animate">
+                <div class="project-wrap">
+                    <a href="" data-toggle="modal" data-target="#kenthongan" class="img" style="background-image: url(aset/images/destination-1.jpg);"></a>
+                    <div class="text p-4">
+                        <a href="" data-toggle="modal" data-target="#kenthongan">
+                            <span class="price">Rp. 635.000/Orang</span>
+                            <span class="days">Paket 2 Hari 2 Malam</span>
+                            <h3>Paket Kenthongan</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ftco-animate">
+                <div class="project-wrap">
+                    <a href="" data-toggle="modal" data-target="#gamelan" class="img" style="background-image: url(aset/images/gamelan.png);"></a>
+                    <div class="text p-4">
+                        <a href="" data-toggle="modal" data-target="#gamelan">
+                            <span class="price">Rp. 850.000/Orang</span>
+                            <span class="days">Paket 4 Hari 3 Malam</span>
+                            <h3>Paket Gamelan</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt">
+    <div class="container">
+        <div class="row justify-content-center pb-4">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <br>
+                <h2 class="mb-4">Wisata Kontemporer Desa Tambaknegara</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 ftco-animate">
+                <div class="project-wrap">
+                    <a href="" data-toggle="modal" data-target="#gondolio" class="img" style="background-image: url(aset/images/Gondolio-2.png);"></a>
+                    <div class="text p-4">
+                        <a href="" data-toggle="modal" data-target="#gondolio">
+                            <span class="price">Rp. 365.000/Orang</span>
+                            <span class="days">Paket 1 Hari 1 Malam</span>
+                            <h3>Paket Gondolio</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ftco-animate">
+                <div class="project-wrap">
+                    <a href="" data-toggle="modal" data-target="#kenthongan" class="img" style="background-image: url(aset/images/destination-1.jpg);"></a>
+                    <div class="text p-4">
+                        <a href="" data-toggle="modal" data-target="#kenthongan">
+                            <span class="price">Rp. 635.000/Orang</span>
+                            <span class="days">Paket 2 Hari 2 Malam</span>
+                            <h3>Paket Kenthongan</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ftco-animate">
+                <div class="project-wrap">
+                    <a href="" data-toggle="modal" data-target="#gamelan" class="img" style="background-image: url(aset/images/gamelan.png);"></a>
+                    <div class="text p-4">
+                        <a href="" data-toggle="modal" data-target="#gamelan">
+                            <span class="price">Rp. 850.000/Orang</span>
+                            <span class="days">Paket 4 Hari 3 Malam</span>
+                            <h3>Paket Gamelan</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Modal -->
 <div class="modal fade" id="gondolio" tabindex="-1" role="dialog" aria-labelledby="gondolioLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">

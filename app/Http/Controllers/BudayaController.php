@@ -20,7 +20,7 @@ class BudayaController extends Controller
     public function index(): View
     {
         //get posts
-        $budayas = Budaya::latest()->paginate(5);
+        $budayas = Budaya::latest()->paginate(E_ALL);
 
         //render view with posts
         return view('admin.budaya', compact('budayas'));

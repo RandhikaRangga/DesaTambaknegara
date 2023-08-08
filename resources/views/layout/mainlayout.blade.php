@@ -46,7 +46,14 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="/wisata" class="nav-link">Wisata</a></li>
+                    <li class="nav-item dropdown show"><a href="" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wisata</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="/daya-tarik">Daya Tarik</a>
+                            <a class="dropdown-item" href="/souvenir">Souvenir</a>
+                            <a class="dropdown-item" href="/kuliner">Kuliner</a>
+                            <a class="dropdown-item" href="/akomodasi">Akomodasi</a>
+                        </div>
+                    </li>
                     <li class="nav-item dropdown show"><a href="" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeri</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="/dokumentasi">Foto</a>
